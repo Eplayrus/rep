@@ -62,7 +62,7 @@ employee2 = Employee(full_name="Петр Петров", job_title="Специа�
 employee2.branch = branch1
 employee2.save()
 
-# ...
+# ```
 
 for i in range(2, 30):
     employee = Employee(full_name=f"Иван Иванов {i}", job_title=f"Руководитель отдела маркетинга {i}", phone_number=f"890123456{i}", birthday=f"1990-01-0{i}")
@@ -75,5 +75,6 @@ for i in range(2, 30):
     employee = Employee(full_name=f"Елена Ермолова {i}", job_title=f"Менеджер по HR {i}", phone_number=f"894567890{i}", birthday=f"1998-05-0{i}")
     employee.branch = branch3
     employee.save()
+```
 ```
 
